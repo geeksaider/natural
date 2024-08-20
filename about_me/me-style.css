@@ -1,0 +1,15 @@
+.about-resume {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.my-photo-resume {
+    height: 200px;
+}
+
+.about-me-text {
+    align-items: center;
+}

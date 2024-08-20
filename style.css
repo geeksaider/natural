@@ -47,11 +47,6 @@ a {
     color: black;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-}
-
 .background-img {
     position: absolute;
     top: 80px;
@@ -75,45 +70,6 @@ a {
 
 .social-media img:hover {
     opacity: 1;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 531px;
-    align-items: center;
-    gap: 10px;
-}
-
-.services-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.service-item .btn {
-    margin: 20px;
-}
-
-.service-item {
-    border: 1px solid #7cdae6c8;
-    margin: 50px;
-    padding: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    display: block;
-    width: 400px;
-}
-
-.service-item h3 {
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-.service-item p {
-    margin-bottom: 10px;
-    font-size: 14px;
 }
 
 .btn {
