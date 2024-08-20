@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     gap: 80px;
-    max-width: 1000px ;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -20,18 +20,18 @@
     line-height: 25px;
 }
 
-.about-me-text p{
-    overflow-wrap: break-word
+.about-me-text p {
+    overflow-wrap: break-word;
 }
 
-.title-progress{
-   text-align: left;
-   margin-left: 40px;
-   margin-top: 35px;
-   font-size: x-large
+.title-progress {
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: x-large;
 }
 
-.list-progress{
+.list-progress {
     display: flex;
     list-style-type: none;
     align-items: center;
@@ -52,4 +52,11 @@
 
 .list-text {
     font-size: large;
+}
+
+.photo-proof-proffesional {
+    width: 500px;
+    height: 240px;
+    background-color: gray;
+    margin: 0 auto;
 }
