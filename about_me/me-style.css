@@ -12,4 +12,8 @@
 
 .about-me-text {
     align-items: center;
+    hyphens: auto;
+    max-width: 500px ;
+    font-size: large;
+    margin-top: 70px;
 }
