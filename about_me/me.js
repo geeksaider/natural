@@ -1,19 +1,37 @@
 const carousel = document.querySelector(".photo-proof-proffesional");
+const leftBtn =  document.querySelector(".carousel-btn-left");
+const rightBtn = document.querySelector(".carousel-btn-right");
+const changePhoto = document.querySelector(".change-proof-photo");
 
 const imgs = [
-  "../assets/img/grass.png",
-  "../assets/img/leaves.png",
+  "../assets/icons/tg.svg",
+  "../assets/icons/vk.svg",
   "../assets/img/me.png",
 ];
 
 let imgNum = 0;
 
 setInterval(() => {
-  carousel.onclick();
-}, 3000);
+  rightBtn.onclick();
+}, 10000);
 
-carousel.onclick = () => {
-  carousel.innerHTML = `<img src=${imgs[imgNum]} />`;
+leftBtn.onclick = () => {
+  imgNum--;
 
-  imgNum = (imgNum + 1) % imgs.length;
+  if(imgNum < 0){
+    imgNum = 2;
+  }
+  
+  changePhoto.src = imgs[imgNum];
+};
+
+rightBtn.onclick = () => {
+  imgNum++;
+
+  if(imgNum > 2){
+    imgNum  = 0;
+  }
+
+
+  changePhoto.src = imgs[imgNum];
 };
